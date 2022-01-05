@@ -1,0 +1,19 @@
+<svg id="Component_27_1" data-name="Component 27 – 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="55.861" height="65.394" viewBox="0 0 55.861 65.394">
+  <defs>
+    <linearGradient id="linear-gradient" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#d04700"/>
+      <stop offset="1" stop-color="#ff4d00"/>
+    </linearGradient>
+  </defs>
+  <path id="Path_1300" data-name="Path 1300" d="M414.292,312.47s1.054-3.243,3.7,2.361l19.36,42.652s8.579,2.329,7.487-5.131l-21.285-46.688S420.808,300.277,414.292,312.47Z" transform="translate(-390.406 -302.893)" fill="#6721aa"/>
+  <path id="Path_1301" data-name="Path 1301" d="M365.809,400.679l-.147-.084-1.83-.981.688-1.387h0l5.9-12.518s2.251-6.644,12.084.4c-.289-.151-3.641-1.688-6.46,5.474l-5.32,11.95-3.2-1.869Z" transform="translate(-359.688 -350.615)" fill="#ff4d00"/>
+  <path id="Path_1302" data-name="Path 1302" d="M400.827,390.627l24.039,18.3s8.689,3,7.647-4.448c0,0,4.154,7.732-1.378,12.124a6.979,6.979,0,0,1-9.344,0l-14.471-10.426-13.165-9.486S396.863,388.9,400.827,390.627Z" transform="translate(-378.148 -355.186)" fill="url(#linear-gradient)"/>
+  <g id="Group_198" data-name="Group 198" transform="translate(15.828)">
+    <path id="Path_1303" data-name="Path 1303" d="M394.081,327.606,404.5,305.852l8,3.831-5.157,10.768-5.057,10.558a4.388,4.388,0,0,1-5.852,2.065l-.515-.247A3.914,3.914,0,0,1,394.081,327.606Z" transform="translate(-393.696 -303.729)" fill="#8f26d3"/>
+    <path id="Path_1304" data-name="Path 1304" d="M423.807,316.838s3.2-9.369,7.162-5.6l-3.7-8.341s-1.214-3.064-4.244-2.363a3.828,3.828,0,0,0-2.185,1.977c-.75,1.567-.024.05-.024.05" transform="translate(-410.011 -300.425)" fill="#8f26d3"/>
+  </g>
+  <path id="Path_1305" data-name="Path 1305" d="M361.319,433.226l-1.792,3.792-3.088-1.774,1.8-3.792Z" transform="translate(-355.188 -380.19)" fill="#ff4d00"/>
+  <path id="Path_1306" data-name="Path 1306" d="M367.613,448.951l-1.515,3.206-2.611-1.5,1.521-3.206Z" transform="translate(-359.478 -389.93)" fill="#ff4d00"/>
+  <path id="Path_1307" data-name="Path 1307" d="M356.575,448.979l-1.224,2.591-2.11-1.212,1.23-2.591Z" transform="translate(-353.24 -390.123)" fill="#ff4d00"/>
+  <path id="Path_1308" data-name="Path 1308" d="M364.96,461.82l-.828,1.753-1.427-.82.832-1.752Z" transform="translate(-359.002 -398.179)" fill="#ff4d00"/>
+</svg>

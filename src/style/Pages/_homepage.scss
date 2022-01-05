@@ -1,0 +1,139 @@
+.homepage--wrapper {
+    overflow-x: hidden;
+
+    @keyframes zoom-in-zoom-out-text {
+        0% {
+            transform: scale(0);
+            opacity: 0.4;
+        }
+
+        100% {
+            transform: scale(1);
+            opacity: 1;
+        }
+    }
+
+    .hero {
+        .hero-text 
+        {
+            h1 ,p
+            {
+                animation: zoom-in-zoom-out-text 2s   ;
+            }
+        }
+        position: relative;
+        .animated--Logo {
+            position: absolute;
+            top: 44%;
+            left: 44%;
+            transform: translate(-50%, -50%);
+            // width: 5500px ;
+            overflow: hidden;
+            // height: 5500px ;
+            animation: zoom-in-zoom-out 2s  forwards;
+            z-index: -1;
+        }
+
+        @keyframes zoom-in-zoom-out {
+            0% {
+                width: 0px ;
+                height: 0px ;
+            }
+            100% {
+                width: 6000px;
+                height: 6000px;
+            }
+        }
+    }
+
+    .tabs-section--wrapper {
+        .homepage--tabs,
+        .ant-tabs-tab {
+            margin-right: 60px !important;
+        }
+        .ant-tabs>.ant-tabs-nav,
+        .ant-tabs>div>.ant-tabs-nav {
+            padding-bottom: 24px;
+        }
+        .homepage--tabs .ant-tabs-tab .ant-tabs-tab-btn {
+            color: #23093B !important;
+            font-size: 30px;
+            opacity: 0.45;
+            text-shadow: 0 0 0.25px currentColor;
+        }
+        .homepage--tabs .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+            color: black !important;
+            opacity: 1;
+            font-size: 30px;
+            text-shadow: 0 0 0.25px currentColor;
+        }
+        .homepage--tabs .ant-tabs-ink-bar {
+            background-color: #FF4D00 !important;
+            height: 5px;
+        }
+    }
+
+    .other-information-wrapper {
+        .left {
+            padding-top: 129px !important;
+            padding-left: 119px !important;
+            color: white;
+            width: 50%;
+            background-repeat: no-repeat;
+            height: 515px;
+            background-image: url('../../assets/bg-ipod.png');
+        }
+
+        .right {
+            padding-top: 129px !important;
+            padding-left: 119px !important;
+            color: white;
+            width: 50%;
+            background-repeat: no-repeat;
+            height: 515px;
+            background-image: url('../../assets/bg-ipod.png');
+        }
+
+        .left-demo {
+
+            .img-section {
+                // width: 415px;
+                // height: 569px;
+            }
+
+            .text-section {
+                padding-top: 104px;
+                padding-left: 90px;
+                padding-right: 40px;
+
+                .info-txt {
+                    padding-right: 60px;
+                }
+            }
+        }
+        .right-demo {
+            .img-section {
+                width: 415px;
+                height: 569px;
+            }
+            .text-section {
+                padding-top: 104px;
+                padding-left: 90px;
+            }
+        }
+    }
+}
+
+/*
+88""Yb 88      dP"Yb   dP""b8     88""Yb    db     dP""b8 888888
+88__dP 88     dP   Yb dP   `"     88__dP   dPYb   dP   `" 88__
+88""Yb 88  .o Yb   dP Yb  "88     88"""   dP__Yb  Yb  "88 88""
+88oodP 88ood8  YbodP   YboodP     88     dP""""Yb  YboodP 888888
+*/
+.blog-wrapper 
+{
+    .blog-img 
+    {
+        width: 100%;
+    }   
+}

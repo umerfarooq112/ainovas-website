@@ -1,0 +1,172 @@
+body {
+    font-family: 'Tajawal';
+    background-color: #F2F2F2 !important;
+}
+
+/*
+88b 88    db    Yb    dP 88""Yb    db    88""Yb
+88Yb88   dPYb    Yb  dP  88__dP   dPYb   88__dP
+88 Y88  dP__Yb    YbdP   88""Yb  dP__Yb  88"Yb
+88  Y8 dP""""Yb    YP    88oodP dP""""Yb 88  Yb
+*/
+.nav {
+    background: white 0% 0% no-repeat padding-box;
+    height: 120px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+
+    .logo-div {
+        .logo-img {
+            min-width: 256px;
+            height: 80px;
+        }
+    }
+
+    .nav-div {
+        .links {
+            padding-left: 78px;
+
+            a {
+                text-decoration: none;
+                letter-spacing: 2px;
+            }
+        }
+
+        .active-link {
+            a {
+                border-bottom: 2px solid red;
+                padding-bottom: 9px;
+                border-bottom: solid 4px red;
+            }
+        }
+    }
+}
+
+
+/*
+88  88 888888 88     88""Yb     .dP"Y8 888888  dP""b8 888888 88  dP"Yb  88b 88
+88  88 88__   88     88__dP     `Ybo." 88__   dP   `"   88   88 dP   Yb 88Yb88
+888888 88""   88  .o 88"""      o.`Y8b 88""   Yb        88   88 Yb   dP 88 Y88
+88  88 888888 88ood8 88         8bodP' 888888  YboodP   88   88  YbodP  88  Y8
+*/
+.help-section {
+    background-color: #23093B;
+    min-height: 435px;
+
+      
+}
+
+/*
+888888  dP"Yb   dP"Yb  888888 888888 88""Yb
+88__   dP   Yb dP   Yb   88   88__   88__dP
+88""   Yb   dP Yb   dP   88   88""   88"Yb
+88      YbodP   YbodP    88   888888 88  Yb
+*/
+
+.footer-wrapper {
+
+    .logo-div {
+        margin-left: 80px !important;
+        // flex:1;
+    }
+
+    .links-div {
+
+        // flex:1;
+        margin-right: 130px !important;
+        display: flex;
+
+    }
+
+    .copyright-text {
+        background-color: #1A0330;
+        color: white;
+        padding: 29px 0px;
+    }
+}
+
+
+/*
+ dP""b8  dP"Yb  8b    d8 8b    d8  dP"Yb  88b 88     88  88 888888 88""Yb  dP"Yb      888888 88 888888 88     888888
+dP   `" dP   Yb 88b  d88 88b  d88 dP   Yb 88Yb88     88  88 88__   88__dP dP   Yb       88   88   88   88     88__
+Yb      Yb   dP 88YbdP88 88YbdP88 Yb   dP 88 Y88     888888 88""   88"Yb  Yb   dP       88   88   88   88  .o 88""
+ YboodP  YbodP  88 YY 88 88 YY 88  YbodP  88  Y8     88  88 888888 88  Yb  YbodP        88   88   88   88ood8 888888
+*/
+
+.common-hero {
+    margin-top: 120px !important;
+
+    h1 {
+        color: white;
+    }
+}
+
+
+
+/*
+ dP"Yb  88   88 88""Yb     .dP"Y8 888888 88""Yb Yb    dP 88  dP""b8 888888 .dP"Y8
+dP   Yb 88   88 88__dP     `Ybo." 88__   88__dP  Yb  dP  88 dP   `" 88__   `Ybo."
+Yb   dP Y8   8P 88"Yb      o.`Y8b 88""   88"Yb    YbdP   88 Yb      88""   o.`Y8b
+ YbodP  `YbodP' 88  Yb     8bodP' 888888 88  Yb    YP    88  YboodP 888888 8bodP'
+*/
+
+.our-services
+    {
+        .three-side-triangle 
+        {
+            z-index: -1;
+        }
+        
+        .triangle {
+            position: relative;
+            background-color: rgb(255, 255, 255);
+            text-align: left;
+        }
+        .triangle:before,
+        .triangle:after {
+            content: '';
+            position: absolute;
+            background-color: inherit;
+        }
+        .triangle,
+        .triangle:before,
+        .triangle:after {
+            width: 299px;
+            height: 300px;
+            border-top-right-radius: 50%;
+        }
+        
+        .triangle {
+            transform: rotate(-60deg) skewX(-30deg) scale(1,.866);
+        }
+        .triangle:before {
+            transform: rotate(-135deg) skewX(-45deg) scale(1.414,.707) translate(0,-50%);
+        }
+        .triangle:after {
+            transform: rotate(135deg) skewY(-45deg) scale(.707,1.414) translate(50%);
+        }
+        .traingle-div
+        {
+            z-index: 10;
+            position: relative;
+            top: -200px;
+            width: 450px;
+            left: -70px;
+        }
+
+    }
+    
+    .service1 > div:nth-child(2)
+    {
+        // margin: 0px 150px !important;
+        // margin-left: 80px !important;
+        // margin-right: 80px !important;
+    }
+    .service2 > div:nth-child(2)
+    {
+        // margin: 0px 150px !important;
+        // margin-left: 80px !important;
+        // margin-right: 80px !important;
+    }

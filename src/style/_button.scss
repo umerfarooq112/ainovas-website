@@ -1,0 +1,94 @@
+.contact-us--btn {
+  background-color: transparent;
+  border: none;
+  border: 2px solid #FF4D00;
+  border-radius: 32px;
+  width: 124px;
+  transition: width 0.7s;
+  &:hover 
+  {
+    width: 222px;
+    margin-left: 40px !important;
+  }
+  
+}
+
+.contact-us--btn::before {
+  content: "\2192";
+  color: #FF4D00;
+  font-size: 31px;
+  margin: 0px !important;
+  transition: all 0.4s;
+}
+.contact-us--btn:hover::before 
+{
+  margin-left: -124px !important;
+}
+.contact-us--btn::after {
+  content: 'Contact Us';
+  position: absolute;
+  font: normal normal bold 25px/37px Tajawal;
+  color: #FF4D00;
+  margin-left: 76px;
+  margin-top: 8px;
+  transition: all 0.7s;
+}
+
+.contact-us--btn:hover::after 
+{
+  margin-left: 10px;
+}
+
+/*
+88""Yb    db     dP""b8 88  dP     88""Yb 88   88 888888 888888  dP"Yb  88b 88
+88__dP   dPYb   dP   `" 88odP      88__dP 88   88   88     88   dP   Yb 88Yb88
+88""Yb  dP__Yb  Yb      88"Yb      88""Yb Y8   8P   88     88   Yb   dP 88 Y88
+88oodP dP""""Yb  YboodP 88  Yb     88oodP `YbodP'   88     88    YbodP  88  Y8
+*/
+
+.back--btn 
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 150px !important;
+  background-color: transparent;
+  border: none;
+  border: 2px solid #FF4D00;
+  border-radius: 32px;
+  width: 124px;
+  transition: width 0.7s;
+  &:hover 
+  {
+    width: 182px;
+    // margin-left: 40px !important;
+  }
+
+}
+.back--btn::after {
+  content: "\2190";
+  color: #FF4D00;
+  font-size: 31px;
+  margin: 0px !important;
+  transition: all 0.4s;
+}
+.back--btn:hover::after {
+  margin-left: 52px !important;
+}
+
+
+
+.back--btn::before {
+  content: 'Back';
+  position: absolute;
+  font: normal normal bold 25px/37px Tajawal;
+  color: #FF4D00;
+  margin-left: -120px;
+  margin-top: 8px;
+  transition: all 0.7s;
+}
+
+.back--btn:hover::before 
+{
+  margin-left: -12px;
+}
